@@ -1,0 +1,193 @@
+[0.007s] Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2
+[0.050s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.050s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.050s]   CMake.
+[0.051s] 
+[0.051s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.051s]   to tell CMake that the project requires at least <min> but has been updated
+[0.051s]   to work with policies introduced by <max> or earlier.
+[0.051s] 
+[0.051s] [0m
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found Python3: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3 (found version "3.10.20") found components: Interpreter
+[0.359s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.378s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.700s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.261s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.261s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.261s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.261s]   the cmake_policy command to set the policy and suppress this warning.
+[1.261s] 
+[1.261s] Call Stack (most recent call first):
+[1.261s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.261s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.261s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[1.261s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.261s] [0m
+[1.271s] -- Found PythonInterp: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3 (found suitable version "3.10.20", minimum required is "3.6")
+[1.273s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.273s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.273s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.273s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.273s]   the cmake_policy command to set the policy and suppress this warning.
+[1.273s] 
+[1.273s] Call Stack (most recent call first):
+[1.273s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.273s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.274s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.274s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[1.274s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.274s] [0m
+[1.284s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.284s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.284s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.284s]   the cmake_policy command to set the policy and suppress this warning.
+[1.284s] 
+[1.284s] Call Stack (most recent call first):
+[1.284s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.284s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.284s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.284s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[1.284s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.284s] [0m
+[1.287s] -- Found PythonLibs: /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib/libpython3.10.so (found suitable version "3.10.20", minimum required is "3.5")
+[1.287s] -- Using PYTHON_EXECUTABLE: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3
+[1.287s] -- Using PYTHON_INCLUDE_DIRS: /home/ugiviag1/miniconda3/envs/g1-slam-pc/include/python3.10
+[1.288s] -- Using PYTHON_LIBRARIES: /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib/libpython3.10.so
+[1.298s] -- Found PythonExtra: .so
+[1.421s] -- Using numpy include directory: /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib/python3.10/site-packages/numpy/core/include
+[1.519s] -- Configuring done (1.5s)
+[1.540s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[1.540s]   Cannot generate a safe runtime search path for target
+[1.540s]   livox_ros_driver2__rosidl_generator_py because files in some directories
+[1.540s]   may conflict with libraries in implicit directories:
+[1.540s] 
+[1.540s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.540s]       /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib
+[1.540s] 
+[1.541s]   Some of these libraries may not be found correctly.
+[1.541s] Call Stack (most recent call first):
+[1.541s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.541s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.541s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[1.541s] 
+[1.541s] [0m
+[1.542s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.543s]   Cannot generate a safe runtime search path for target
+[1.543s]   livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext because files in
+[1.543s]   some directories may conflict with libraries in implicit directories:
+[1.543s] 
+[1.543s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.543s]       /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib
+[1.543s] 
+[1.543s]   Some of these libraries may not be found correctly.
+[1.543s] Call Stack (most recent call first):
+[1.543s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.543s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.543s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[1.543s] 
+[1.543s] [0m
+[1.545s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.545s]   Cannot generate a safe runtime search path for target
+[1.545s]   livox_ros_driver2__rosidl_typesupport_introspection_c__pyext because files
+[1.545s]   in some directories may conflict with libraries in implicit directories:
+[1.545s] 
+[1.545s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.545s]       /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib
+[1.545s] 
+[1.545s]   Some of these libraries may not be found correctly.
+[1.545s] Call Stack (most recent call first):
+[1.545s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.545s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.545s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[1.545s] 
+[1.545s] [0m
+[1.547s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.547s]   Cannot generate a safe runtime search path for target
+[1.547s]   livox_ros_driver2__rosidl_typesupport_c__pyext because files in some
+[1.547s]   directories may conflict with libraries in implicit directories:
+[1.547s] 
+[1.547s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.547s]       /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib
+[1.547s] 
+[1.547s]   Some of these libraries may not be found correctly.
+[1.547s] Call Stack (most recent call first):
+[1.547s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.547s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.547s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[1.547s] 
+[1.547s] [0m
+[1.555s] -- Generating done (0.0s)
+[1.561s] -- Build files have been written to: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2
+[1.568s] Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2
+[1.569s] Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32
+[1.631s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.636s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.637s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.639s] [  7%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[1.665s] Traceback (most recent call last):
+[1.666s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[1.666s]     from rosidl_generator_c import generate_c
+[1.666s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[1.666s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[1.666s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.666s]     from rosidl_parser.parser import parse_idl_file
+[1.666s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.666s]     from lark import Lark
+[1.666s] ModuleNotFoundError: No module named 'lark'
+[1.671s] gmake[2]: *** [CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/build.make:120: rosidl_generator_c/livox_ros_driver2/msg/custom_point.h] Error 1
+[1.671s] gmake[1]: *** [CMakeFiles/Makefile2:282: CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/all] Error 2
+[1.672s] gmake[1]: *** Waiting for unfinished jobs....
+[1.672s] Traceback (most recent call last):
+[1.672s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[1.672s]     from rosidl_generator_cpp import generate_cpp
+[1.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[1.672s]     from rosidl_cmake import generate_files
+[1.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.672s]     from rosidl_parser.parser import parse_idl_file
+[1.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.672s]     from lark import Lark
+[1.672s] ModuleNotFoundError: No module named 'lark'
+[1.672s] Traceback (most recent call last):
+[1.672s]   File "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 8, in <module>
+[1.672s]     from rosidl_generator_rs import generate_rs
+[1.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py", line 21, in <module>
+[1.672s]     import rosidl_cmake as rosidl_pycommon
+[1.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.672s]     from rosidl_parser.parser import parse_idl_file
+[1.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.673s]     from lark import Lark
+[1.673s] ModuleNotFoundError: No module named 'lark'
+[1.677s] gmake[2]: *** [CMakeFiles/livox_ros_driver2__cpp.dir/build.make:131: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp] Error 1
+[1.677s] gmake[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/livox_ros_driver2__cpp.dir/all] Error 2
+[1.677s] gmake[2]: *** [/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2/livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/build.make:124: rosidl_generator_rs/livox_ros_driver2/rust/src/lib.rs] Error 1
+[1.677s] gmake[1]: *** [CMakeFiles/Makefile2:782: livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/all] Error 2
+[1.789s] running egg_info
+[1.793s] creating livox_ros_driver2.egg-info
+[1.793s] writing livox_ros_driver2.egg-info/PKG-INFO
+[1.793s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[1.794s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[1.794s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.810s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.810s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.825s] [  7%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[1.826s] gmake: *** [Makefile:146: all] Error 2
+[1.828s] Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32

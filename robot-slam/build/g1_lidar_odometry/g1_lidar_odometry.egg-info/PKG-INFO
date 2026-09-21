@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: g1-lidar-odometry
+Version: 0.0.1
+Summary: Unitree G1 Livox ICP SLAM with IMU prior and optional pose-graph optimization
+Home-page: UNKNOWN
+Maintainer: ugiviag1
+Maintainer-email: tacaniki@hotmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

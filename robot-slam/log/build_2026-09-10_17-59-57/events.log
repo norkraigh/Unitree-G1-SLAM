@@ -1,0 +1,987 @@
+[0.000000] (-) TimerEvent: {}
+[0.000298] (-) JobUnselected: {'identifier': 'g1_lidar_odometry'}
+[0.000370] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.000431] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000494] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2')])}
+[0.000524] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.005393] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.005563] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', ''), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[0.059346] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098699] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099866] (-) TimerEvent: {}
+[0.107124] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.157883] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161750] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.162148] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.162727] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.165028] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199943] (-) TimerEvent: {}
+[0.219392] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.223451] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.223633] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.223891] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.225690] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300030] (-) TimerEvent: {}
+[0.325451] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.365291] (livox_ros_driver2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.384350] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.386116] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.390133] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400088] (-) TimerEvent: {}
+[0.413753] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.436095] (livox_ros_driver2) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.500167] (-) TimerEvent: {}
+[0.600371] (-) TimerEvent: {}
+[0.617809] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700469] (-) TimerEvent: {}
+[0.754548] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800544] (-) TimerEvent: {}
+[0.900860] (-) TimerEvent: {}
+[0.937611] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.952635] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.953700] (livox_ros_driver2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.972051] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.972180] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.972247] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.972312] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.985827] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.000919] (-) TimerEvent: {}
+[1.070422] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.100979] (livox_ros_driver2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.101105] (-) TimerEvent: {}
+[1.110049] (livox_ros_driver2) StdoutLine: {'line': b'-- Build files have been written to: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2\n'}
+[1.115644] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[1.116063] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[1.116616] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', '--', '-j32', '-l32'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', ''), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[1.146602] (livox_ros_driver2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.154946] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.155105] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.162109] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[1.201179] (-) TimerEvent: {}
+[1.301394] (-) TimerEvent: {}
+[1.306566] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[1.306874] (livox_ros_driver2) StdoutLine: {'line': b'creating livox_ros_driver2.egg-info\n'}
+[1.306968] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[1.307088] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[1.307177] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[1.307314] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.308285] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.308578] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.327132] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[1.383028] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target livox_ros_driver2__rs\n'}
+[1.401490] (-) TimerEvent: {}
+[1.409742] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target livox_ros_driver2__cpp\n'}
+[1.413407] (livox_ros_driver2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o\x1b[0m\n'}
+[1.413722] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o\x1b[0m\n'}
+[1.417789] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.417859] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.418218] (livox_ros_driver2) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.491092] (livox_ros_driver2) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so\x1b[0m\n'}
+[1.501566] (-) TimerEvent: {}
+[1.522382] (livox_ros_driver2) StdoutLine: {'line': b'[ 22%] Built target livox_ros_driver2__rosidl_generator_c\n'}
+[1.532798] (livox_ros_driver2) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.532999] (livox_ros_driver2) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.533114] (livox_ros_driver2) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.601661] (-) TimerEvent: {}
+[1.672819] (livox_ros_driver2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.673009] (livox_ros_driver2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.681010] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.681172] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.691577] (livox_ros_driver2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.691749] (livox_ros_driver2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.701736] (-) TimerEvent: {}
+[1.801973] (-) TimerEvent: {}
+[1.805130] (livox_ros_driver2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[1.805351] (livox_ros_driver2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[1.839061] (livox_ros_driver2) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.847690] (livox_ros_driver2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o\x1b[0m\n'}
+[1.847947] (livox_ros_driver2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o\x1b[0m\n'}
+[1.856639] (livox_ros_driver2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o\x1b[0m\n'}
+[1.859250] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o\x1b[0m\n'}
+[1.887057] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] Built target livox_ros_driver2__rosidl_typesupport_c\n'}
+[1.902078] (-) TimerEvent: {}
+[1.902536] (livox_ros_driver2) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.909055] (livox_ros_driver2) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.937540] (livox_ros_driver2) StdoutLine: {'line': b'[ 67%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c\n'}
+[1.943190] (livox_ros_driver2) StdoutLine: {'line': b'[ 67%] Built target livox_ros_driver2__rosidl_typesupport_cpp\n'}
+[2.002189] (-) TimerEvent: {}
+[2.010356] (livox_ros_driver2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.039044] (livox_ros_driver2) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.062806] (livox_ros_driver2) StdoutLine: {'line': b'[ 72%] Built target livox_ros_driver2__rosidl_typesupport_introspection_cpp\n'}
+[2.089933] (livox_ros_driver2) StdoutLine: {'line': b'[ 72%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_cpp\n'}
+[2.090434] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.102250] (-) TimerEvent: {}
+[2.139127] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c\n'}
+[2.154401] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] Built target livox_ros_driver2\n'}
+[2.169874] (livox_ros_driver2) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.202341] (-) TimerEvent: {}
+[2.302601] (-) TimerEvent: {}
+[2.402875] (-) TimerEvent: {}
+[2.503149] (-) TimerEvent: {}
+[2.512885] (livox_ros_driver2) StdoutLine: {'line': b'[ 77%] Built target livox_ros_driver2__py\n'}
+[2.529649] (livox_ros_driver2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o\x1b[0m\n'}
+[2.530406] (livox_ros_driver2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o\x1b[0m\n'}
+[2.603230] (-) TimerEvent: {}
+[2.629513] (livox_ros_driver2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_ros_driver2__rosidl_generator_py.so\x1b[0m\n'}
+[2.659090] (livox_ros_driver2) StdoutLine: {'line': b'[ 85%] Built target livox_ros_driver2__rosidl_generator_py\n'}
+[2.675176] (livox_ros_driver2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.675338] (livox_ros_driver2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.676173] (livox_ros_driver2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.703294] (-) TimerEvent: {}
+[2.760150] (livox_ros_driver2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.761117] (livox_ros_driver2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.761183] (livox_ros_driver2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.791156] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[2.791869] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.792433] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[2.802796] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[2.803313] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[2.803345] (-) TimerEvent: {}
+[2.810370] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', ''), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[2.817235] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.817726] (livox_ros_driver2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.817996] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[2.825726] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[2.832838] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[2.840514] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[2.847450] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[2.855921] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[2.862915] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[2.869563] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[2.877220] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[2.884283] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.891337] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[2.898441] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[2.903415] (-) TimerEvent: {}
+[2.906181] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.912744] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[2.920172] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.927870] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[2.936016] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[2.943500] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.950970] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[2.959457] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[2.968332] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[2.975240] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[2.981542] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[2.988447] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp\n'}
+[2.995147] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[3.002299] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[3.003478] (-) TimerEvent: {}
+[3.008712] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[3.015472] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp\n'}
+[3.022316] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.029552] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.036067] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.042351] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.050982] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.061749] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.069955] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[3.077234] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[3.084648] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[3.091755] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[3.098446] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[3.103554] (-) TimerEvent: {}
+[3.105263] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[3.113076] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[3.120671] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[3.128359] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.136504] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.143881] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_ros_driver2__rosidl_generator_py.so\n'}
+[3.151451] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.159476] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.167511] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.174764] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[3.182054] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[3.189047] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[3.195809] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[3.203634] (-) TimerEvent: {}
+[3.203875] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[3.211296] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.211453] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.211634] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.211796] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2\n'}
+[3.219621] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml\n'}
+[3.227358] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs\n'}
+[3.235100] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs\n'}
+[3.242914] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs\n'}
+[3.250760] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs\n'}
+[3.258301] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[3.265944] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[3.273117] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[3.280357] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[3.288092] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[3.295614] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[3.303748] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[3.303902] (-) TimerEvent: {}
+[3.311172] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[3.318593] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[3.326213] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[3.333861] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[3.341382] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[3.348105] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[3.355773] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[3.363649] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[3.371114] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[3.378706] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[3.386396] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.393942] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.401510] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.403989] (-) TimerEvent: {}
+[3.409403] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.418401] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.426848] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.434713] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[3.443097] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[3.450502] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[3.458451] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[3.458936] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""\n'}
+[3.459043] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[3.459760] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.459821] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[3.460188] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.460266] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[3.460508] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""\n'}
+[3.460576] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.460990] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.461050] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[3.461384] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.461459] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[3.461771] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""\n'}
+[3.485926] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[3.486069] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...\n"}
+[3.486116] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[3.486162] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...\n"}
+[3.486201] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...\n"}
+[3.486236] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...\n"}
+[3.489594] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_py.so\n'}
+[3.489985] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_py.so" to ""\n'}
+[3.490041] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport.cmake\n'}
+[3.490206] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport-release.cmake\n'}
+[3.490346] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.490484] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[3.490626] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.490767] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[3.490904] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport.cmake\n'}
+[3.491041] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport-release.cmake\n'}
+[3.491180] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cppExport.cmake\n'}
+[3.491318] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.491459] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[3.491595] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.491734] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[3.491871] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport.cmake\n'}
+[3.492010] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport-release.cmake\n'}
+[3.492151] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport.cmake\n'}
+[3.492293] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport-release.cmake\n'}
+[3.494873] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[3.504106] (-) TimerEvent: {}
+[3.507899] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[3.508492] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[3.514349] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[3.514856] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/FAST_LIO', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', ''), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[3.559586] (fast_lio) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.599420] (fast_lio) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.604170] (-) TimerEvent: {}
+[3.604882] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.658116] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.662128] (fast_lio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.662301] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.662508] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.664379] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.704259] (-) TimerEvent: {}
+[3.719881] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.724373] (fast_lio) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.724553] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.724837] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.725399] (fast_lio) StderrLine: {'line': b'\x1b[0mCurrent CPU archtecture: x86_64\x1b[0m\n'}
+[3.731569] (fast_lio) StderrLine: {'line': b'\x1b[0mProcesser number:  32\x1b[0m\n'}
+[3.731705] (fast_lio) StderrLine: {'line': b'\x1b[0mcore for MP: 3\x1b[0m\n'}
+[3.804372] (-) TimerEvent: {}
+[3.904660] (-) TimerEvent: {}
+[3.989932] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") \n'}
+[3.991543] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.004719] (-) TimerEvent: {}
+[4.088510] (fast_lio) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.104817] (-) TimerEvent: {}
+[4.126192] (fast_lio) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.144889] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.166656] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.169799] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.174934] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.181822] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.191016] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.204885] (-) TimerEvent: {}
+[4.217100] (fast_lio) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.218797] (fast_lio) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.282668] (fast_lio) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.300216] (fast_lio) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.304966] (-) TimerEvent: {}
+[4.329410] (fast_lio) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.339446] (fast_lio) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.394405] (fast_lio) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.394715] (fast_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.405059] (-) TimerEvent: {}
+[4.451167] (fast_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.451997] (fast_lio) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.482977] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.499333] (fast_lio) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.505115] (-) TimerEvent: {}
+[4.506503] (fast_lio) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.515792] (fast_lio) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.525580] (fast_lio) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[4.532345] (fast_lio) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[4.547744] (fast_lio) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[4.583399] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[4.594005] (fast_lio) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[4.605206] (-) TimerEvent: {}
+[4.624512] (fast_lio) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[4.624688] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.658390] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[4.672100] (fast_lio) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[4.705268] (-) TimerEvent: {}
+[4.707313] (fast_lio) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[4.707407] (fast_lio) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[4.806219] (-) TimerEvent: {}
+[4.906472] (-) TimerEvent: {}
+[5.006709] (-) TimerEvent: {}
+[5.106965] (-) TimerEvent: {}
+[5.207203] (-) TimerEvent: {}
+[5.307453] (-) TimerEvent: {}
+[5.407682] (-) TimerEvent: {}
+[5.456693] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[5.470308] (fast_lio) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[5.507089] (fast_lio) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[5.507734] (-) TimerEvent: {}
+[5.508538] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.562646] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.607792] (-) TimerEvent: {}
+[5.655912] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.661214] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.666386] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.707869] (-) TimerEvent: {}
+[5.755850] (fast_lio) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[5.807936] (-) TimerEvent: {}
+[5.846011] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.908015] (-) TimerEvent: {}
+[5.931141] (fast_lio) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[5.931829] (fast_lio) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[5.932407] (fast_lio) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[5.932847] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[5.933280] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[5.933788] (fast_lio) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[5.934012] (fast_lio) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[5.934180] (fast_lio) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[5.934609] (fast_lio) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[5.935109] (fast_lio) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[5.935609] (fast_lio) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[5.936056] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[5.936658] (fast_lio) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[5.937182] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[5.937665] (fast_lio) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[5.938190] (fast_lio) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[5.938714] (fast_lio) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[5.939215] (fast_lio) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[5.939733] (fast_lio) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[5.940191] (fast_lio) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[5.940613] (fast_lio) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[5.940773] (fast_lio) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[5.943614] (fast_lio) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[5.944183] (fast_lio) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[5.944646] (fast_lio) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[5.962838] (fast_lio) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.963911] (fast_lio) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.963962] (fast_lio) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.001004] (fast_lio) StdoutLine: {'line': b'-- Found livox_ros_driver2: 0.0.1 (/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake)\n'}
+[6.008093] (-) TimerEvent: {}
+[6.008401] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.015791] (fast_lio) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):\n'}
+[6.015909] (fast_lio) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[6.015974] (fast_lio) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[6.016029] (fast_lio) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.016080] (fast_lio) StderrLine: {'line': b'\n'}
+[6.016131] (fast_lio) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[6.016336] (fast_lio) StderrLine: {'line': b'\n'}
+[6.016423] (fast_lio) StderrLine: {'line': b'    /usr\n'}
+[6.016467] (fast_lio) StderrLine: {'line': b'\n'}
+[6.016501] (fast_lio) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[6.016532] (fast_lio) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.016562] (fast_lio) StderrLine: {'line': b'\x1b[0m\n'}
+[6.021263] (fast_lio) StderrLine: {'line': b'\x1b[0mEigen:/usr/include/eigen3\x1b[0m\n'}
+[6.021366] (fast_lio) StdoutLine: {'line': b'-- PCL: /usr/include/pcl-1.12\n'}
+[6.108174] (-) TimerEvent: {}
+[6.160706] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.208246] (-) TimerEvent: {}
+[6.308398] (-) TimerEvent: {}
+[6.337766] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.405243] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.408474] (-) TimerEvent: {}
+[6.419599] (fast_lio) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.420746] (fast_lio) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.434446] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.434565] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.434626] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.434681] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.447352] (fast_lio) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.508547] (-) TimerEvent: {}
+[6.519237] (fast_lio) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.592553] (fast_lio) StdoutLine: {'line': b'-- Generating done\n'}
+[6.605570] (fast_lio) StdoutLine: {'line': b'-- Build files have been written to: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio\n'}
+[6.608616] (-) TimerEvent: {}
+[6.619383] (fast_lio) CommandEnded: {'returncode': 0}
+[6.620534] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[6.620573] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio', '--', '-j32', '-l32'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', ''), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[6.655339] (fast_lio) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.661804] (fast_lio) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[6.662538] (fast_lio) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.667973] (fast_lio) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_symlink_fast_lio\n'}
+[6.708704] (-) TimerEvent: {}
+[6.803872] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[6.804143] (fast_lio) StdoutLine: {'line': b'creating fast_lio.egg-info\n'}
+[6.804234] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[6.804339] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[6.804421] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[6.804538] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[6.805514] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[6.805774] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[6.808760] (-) TimerEvent: {}
+[6.824573] (fast_lio) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[6.832229] (fast_lio) StdoutLine: {'line': b'[  8%] Built target fast_lio__rs\n'}
+[6.840967] (fast_lio) StdoutLine: {'line': b'[  8%] Built target fast_lio__cpp\n'}
+[6.846111] (fast_lio) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o\x1b[0m\n'}
+[6.850200] (fast_lio) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.850341] (fast_lio) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.850647] (fast_lio) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.908866] (-) TimerEvent: {}
+[6.913170] (fast_lio) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libfast_lio__rosidl_generator_c.so\x1b[0m\n'}
+[6.943576] (fast_lio) StdoutLine: {'line': b'[ 22%] Built target fast_lio__rosidl_generator_c\n'}
+[6.951637] (fast_lio) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.952138] (fast_lio) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.952253] (fast_lio) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.008946] (-) TimerEvent: {}
+[7.029966] (fast_lio) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[7.038417] (fast_lio) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[7.040845] (fast_lio) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[7.109033] (-) TimerEvent: {}
+[7.131820] (fast_lio) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[7.146561] (fast_lio) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o\x1b[0m\n'}
+[7.147770] (fast_lio) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o\x1b[0m\n'}
+[7.155916] (fast_lio) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.189171] (fast_lio) StdoutLine: {'line': b'[ 50%] Built target fast_lio__rosidl_typesupport_c\n'}
+[7.190417] (fast_lio) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.206154] (fast_lio) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.209099] (-) TimerEvent: {}
+[7.214914] (fast_lio) StdoutLine: {'line': b'[ 55%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[7.238879] (fast_lio) StdoutLine: {'line': b'[ 55%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[7.256998] (fast_lio) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o\x1b[0m\n'}
+[7.257121] (fast_lio) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o\x1b[0m\n'}
+[7.257184] (fast_lio) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[7.288394] (fast_lio) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.294665] (fast_lio) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.309162] (-) TimerEvent: {}
+[7.321305] (fast_lio) StdoutLine: {'line': b'[ 69%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[7.351623] (fast_lio) StdoutLine: {'line': b'[ 69%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[7.357362] (fast_lio) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.409273] (fast_lio) StdoutLine: {'line': b'[ 72%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[7.409435] (-) TimerEvent: {}
+[7.425861] (fast_lio) StdoutLine: {'line': b'[ 72%] Built target fast_lio\n'}
+[7.441830] (fast_lio) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.509544] (-) TimerEvent: {}
+[7.609819] (-) TimerEvent: {}
+[7.702730] (fast_lio) StdoutLine: {'line': b'[ 75%] Built target fast_lio__py\n'}
+[7.709922] (-) TimerEvent: {}
+[7.724227] (fast_lio) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o\x1b[0m\n'}
+[7.810029] (-) TimerEvent: {}
+[7.829718] (fast_lio) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so\x1b[0m\n'}
+[7.863391] (fast_lio) StdoutLine: {'line': b'[ 80%] Built target fast_lio__rosidl_generator_py\n'}
+[7.881574] (fast_lio) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.881723] (fast_lio) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.881783] (fast_lio) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.910127] (-) TimerEvent: {}
+[7.960219] (fast_lio) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.962036] (fast_lio) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.964760] (fast_lio) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.989821] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[7.991648] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[7.994839] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.010179] (-) TimerEvent: {}
+[8.110367] (-) TimerEvent: {}
+[8.210560] (-) TimerEvent: {}
+[8.310827] (-) TimerEvent: {}
+[8.411193] (-) TimerEvent: {}
+[8.511510] (-) TimerEvent: {}
+[8.611808] (-) TimerEvent: {}
+[8.712064] (-) TimerEvent: {}
+[8.812371] (-) TimerEvent: {}
+[8.912688] (-) TimerEvent: {}
+[9.012938] (-) TimerEvent: {}
+[9.113202] (-) TimerEvent: {}
+[9.213455] (-) TimerEvent: {}
+[9.313731] (-) TimerEvent: {}
+[9.413993] (-) TimerEvent: {}
+[9.514273] (-) TimerEvent: {}
+[9.614545] (-) TimerEvent: {}
+[9.714829] (-) TimerEvent: {}
+[9.815114] (-) TimerEvent: {}
+[9.915391] (-) TimerEvent: {}
+[10.015643] (-) TimerEvent: {}
+[10.115893] (-) TimerEvent: {}
+[10.216127] (-) TimerEvent: {}
+[10.316405] (-) TimerEvent: {}
+[10.416639] (-) TimerEvent: {}
+[10.516911] (-) TimerEvent: {}
+[10.617187] (-) TimerEvent: {}
+[10.717450] (-) TimerEvent: {}
+[10.817734] (-) TimerEvent: {}
+[10.918017] (-) TimerEvent: {}
+[11.018308] (-) TimerEvent: {}
+[11.118573] (-) TimerEvent: {}
+[11.218806] (-) TimerEvent: {}
+[11.319013] (-) TimerEvent: {}
+[11.339929] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[11.340048] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[11.340092] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[11.340128] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[11.340177] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[11.340210] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[11.340242] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[11.340273] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/microsec_time_clock.hpp:18\x1b[m\x1b[K,\n'}
+[11.340302] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31\x1b[m\x1b[K,\n'}
+[11.340332] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36\x1b[m\x1b[K,\n'}
+[11.340363] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/sync/file_lock.hpp:26\x1b[m\x1b[K,\n'}
+[11.340393] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46\x1b[m\x1b[K,\n'}
+[11.340423] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73\x1b[m\x1b[K,\n'}
+[11.340453] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/FAST_LIO/src/IMU_Processing.hpp:18\x1b[m\x1b[K,\n'}
+[11.340484] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/FAST_LIO/src/laserMapping.cpp:47\x1b[m\x1b[K:\n'}
+[11.340515] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.340552] (fast_lio) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[11.340586] (fast_lio) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.419066] (-) TimerEvent: {}
+[11.519252] (-) TimerEvent: {}
+[11.619412] (-) TimerEvent: {}
+[11.719603] (-) TimerEvent: {}
+[11.819744] (-) TimerEvent: {}
+[11.919901] (-) TimerEvent: {}
+[12.020052] (-) TimerEvent: {}
+[12.120275] (-) TimerEvent: {}
+[12.220544] (-) TimerEvent: {}
+[12.320789] (-) TimerEvent: {}
+[12.421035] (-) TimerEvent: {}
+[12.521308] (-) TimerEvent: {}
+[12.621548] (-) TimerEvent: {}
+[12.721802] (-) TimerEvent: {}
+[12.822045] (-) TimerEvent: {}
+[12.922347] (-) TimerEvent: {}
+[13.022590] (-) TimerEvent: {}
+[13.122873] (-) TimerEvent: {}
+[13.223117] (-) TimerEvent: {}
+[13.323436] (-) TimerEvent: {}
+[13.423696] (-) TimerEvent: {}
+[13.523971] (-) TimerEvent: {}
+[13.624261] (-) TimerEvent: {}
+[13.724519] (-) TimerEvent: {}
+[13.824793] (-) TimerEvent: {}
+[13.925042] (-) TimerEvent: {}
+[14.025309] (-) TimerEvent: {}
+[14.125585] (-) TimerEvent: {}
+[14.225863] (-) TimerEvent: {}
+[14.326193] (-) TimerEvent: {}
+[14.426460] (-) TimerEvent: {}
+[14.526735] (-) TimerEvent: {}
+[14.627011] (-) TimerEvent: {}
+[14.727295] (-) TimerEvent: {}
+[14.827545] (-) TimerEvent: {}
+[14.927786] (-) TimerEvent: {}
+[15.028037] (-) TimerEvent: {}
+[15.128298] (-) TimerEvent: {}
+[15.228543] (-) TimerEvent: {}
+[15.328787] (-) TimerEvent: {}
+[15.429036] (-) TimerEvent: {}
+[15.529293] (-) TimerEvent: {}
+[15.629570] (-) TimerEvent: {}
+[15.729842] (-) TimerEvent: {}
+[15.830091] (-) TimerEvent: {}
+[15.930427] (-) TimerEvent: {}
+[16.030674] (-) TimerEvent: {}
+[16.130922] (-) TimerEvent: {}
+[16.231182] (-) TimerEvent: {}
+[16.331441] (-) TimerEvent: {}
+[16.431689] (-) TimerEvent: {}
+[16.531964] (-) TimerEvent: {}
+[16.632193] (-) TimerEvent: {}
+[16.732443] (-) TimerEvent: {}
+[16.832690] (-) TimerEvent: {}
+[16.932921] (-) TimerEvent: {}
+[17.033170] (-) TimerEvent: {}
+[17.133405] (-) TimerEvent: {}
+[17.233654] (-) TimerEvent: {}
+[17.333876] (-) TimerEvent: {}
+[17.434153] (-) TimerEvent: {}
+[17.534426] (-) TimerEvent: {}
+[17.634697] (-) TimerEvent: {}
+[17.734953] (-) TimerEvent: {}
+[17.835215] (-) TimerEvent: {}
+[17.935502] (-) TimerEvent: {}
+[18.035757] (-) TimerEvent: {}
+[18.136017] (-) TimerEvent: {}
+[18.236286] (-) TimerEvent: {}
+[18.336547] (-) TimerEvent: {}
+[18.436807] (-) TimerEvent: {}
+[18.537073] (-) TimerEvent: {}
+[18.637342] (-) TimerEvent: {}
+[18.737595] (-) TimerEvent: {}
+[18.837874] (-) TimerEvent: {}
+[18.938161] (-) TimerEvent: {}
+[19.038418] (-) TimerEvent: {}
+[19.138691] (-) TimerEvent: {}
+[19.238957] (-) TimerEvent: {}
+[19.339238] (-) TimerEvent: {}
+[19.439509] (-) TimerEvent: {}
+[19.539786] (-) TimerEvent: {}
+[19.640065] (-) TimerEvent: {}
+[19.740362] (-) TimerEvent: {}
+[19.840642] (-) TimerEvent: {}
+[19.940927] (-) TimerEvent: {}
+[20.041208] (-) TimerEvent: {}
+[20.141491] (-) TimerEvent: {}
+[20.241773] (-) TimerEvent: {}
+[20.342054] (-) TimerEvent: {}
+[20.442329] (-) TimerEvent: {}
+[20.542622] (-) TimerEvent: {}
+[20.642903] (-) TimerEvent: {}
+[20.743200] (-) TimerEvent: {}
+[20.843486] (-) TimerEvent: {}
+[20.943767] (-) TimerEvent: {}
+[21.044045] (-) TimerEvent: {}
+[21.144338] (-) TimerEvent: {}
+[21.244598] (-) TimerEvent: {}
+[21.344859] (-) TimerEvent: {}
+[21.445150] (-) TimerEvent: {}
+[21.545428] (-) TimerEvent: {}
+[21.645690] (-) TimerEvent: {}
+[21.745970] (-) TimerEvent: {}
+[21.846194] (-) TimerEvent: {}
+[21.946456] (-) TimerEvent: {}
+[22.046736] (-) TimerEvent: {}
+[22.147018] (-) TimerEvent: {}
+[22.247323] (-) TimerEvent: {}
+[22.347599] (-) TimerEvent: {}
+[22.447892] (-) TimerEvent: {}
+[22.548182] (-) TimerEvent: {}
+[22.648442] (-) TimerEvent: {}
+[22.748695] (-) TimerEvent: {}
+[22.848954] (-) TimerEvent: {}
+[22.949193] (-) TimerEvent: {}
+[23.049445] (-) TimerEvent: {}
+[23.149696] (-) TimerEvent: {}
+[23.249971] (-) TimerEvent: {}
+[23.350265] (-) TimerEvent: {}
+[23.450545] (-) TimerEvent: {}
+[23.550830] (-) TimerEvent: {}
+[23.651116] (-) TimerEvent: {}
+[23.751404] (-) TimerEvent: {}
+[23.851663] (-) TimerEvent: {}
+[23.951940] (-) TimerEvent: {}
+[24.052194] (-) TimerEvent: {}
+[24.152449] (-) TimerEvent: {}
+[24.252704] (-) TimerEvent: {}
+[24.352960] (-) TimerEvent: {}
+[24.453184] (-) TimerEvent: {}
+[24.553432] (-) TimerEvent: {}
+[24.653693] (-) TimerEvent: {}
+[24.753970] (-) TimerEvent: {}
+[24.854233] (-) TimerEvent: {}
+[24.954489] (-) TimerEvent: {}
+[25.054777] (-) TimerEvent: {}
+[25.155060] (-) TimerEvent: {}
+[25.255402] (-) TimerEvent: {}
+[25.355675] (-) TimerEvent: {}
+[25.455940] (-) TimerEvent: {}
+[25.556189] (-) TimerEvent: {}
+[25.656426] (-) TimerEvent: {}
+[25.756674] (-) TimerEvent: {}
+[25.856918] (-) TimerEvent: {}
+[25.957183] (-) TimerEvent: {}
+[26.057432] (-) TimerEvent: {}
+[26.157662] (-) TimerEvent: {}
+[26.257917] (-) TimerEvent: {}
+[26.358174] (-) TimerEvent: {}
+[26.458436] (-) TimerEvent: {}
+[26.558688] (-) TimerEvent: {}
+[26.658954] (-) TimerEvent: {}
+[26.759190] (-) TimerEvent: {}
+[26.859439] (-) TimerEvent: {}
+[26.959702] (-) TimerEvent: {}
+[27.059972] (-) TimerEvent: {}
+[27.160224] (-) TimerEvent: {}
+[27.260489] (-) TimerEvent: {}
+[27.360755] (-) TimerEvent: {}
+[27.461032] (-) TimerEvent: {}
+[27.561285] (-) TimerEvent: {}
+[27.661526] (-) TimerEvent: {}
+[27.761781] (-) TimerEvent: {}
+[27.862026] (-) TimerEvent: {}
+[27.962338] (-) TimerEvent: {}
+[28.062625] (-) TimerEvent: {}
+[28.162910] (-) TimerEvent: {}
+[28.263192] (-) TimerEvent: {}
+[28.363480] (-) TimerEvent: {}
+[28.463748] (-) TimerEvent: {}
+[28.563992] (-) TimerEvent: {}
+[28.664273] (-) TimerEvent: {}
+[28.764539] (-) TimerEvent: {}
+[28.864812] (-) TimerEvent: {}
+[28.965079] (-) TimerEvent: {}
+[29.065424] (-) TimerEvent: {}
+[29.165671] (-) TimerEvent: {}
+[29.265931] (-) TimerEvent: {}
+[29.366190] (-) TimerEvent: {}
+[29.466433] (-) TimerEvent: {}
+[29.566687] (-) TimerEvent: {}
+[29.666961] (-) TimerEvent: {}
+[29.767215] (-) TimerEvent: {}
+[29.867489] (-) TimerEvent: {}
+[29.967760] (-) TimerEvent: {}
+[30.068018] (-) TimerEvent: {}
+[30.168276] (-) TimerEvent: {}
+[30.268553] (-) TimerEvent: {}
+[30.368811] (-) TimerEvent: {}
+[30.469081] (-) TimerEvent: {}
+[30.569338] (-) TimerEvent: {}
+[30.669599] (-) TimerEvent: {}
+[30.769868] (-) TimerEvent: {}
+[30.870130] (-) TimerEvent: {}
+[30.970392] (-) TimerEvent: {}
+[31.070655] (-) TimerEvent: {}
+[31.170920] (-) TimerEvent: {}
+[31.271198] (-) TimerEvent: {}
+[31.371460] (-) TimerEvent: {}
+[31.471735] (-) TimerEvent: {}
+[31.571995] (-) TimerEvent: {}
+[31.672299] (-) TimerEvent: {}
+[31.772567] (-) TimerEvent: {}
+[31.872839] (-) TimerEvent: {}
+[31.973105] (-) TimerEvent: {}
+[32.073359] (-) TimerEvent: {}
+[32.173603] (-) TimerEvent: {}
+[32.273853] (-) TimerEvent: {}
+[32.374109] (-) TimerEvent: {}
+[32.474402] (-) TimerEvent: {}
+[32.574644] (-) TimerEvent: {}
+[32.674881] (-) TimerEvent: {}
+[32.775117] (-) TimerEvent: {}
+[32.875358] (-) TimerEvent: {}
+[32.975609] (-) TimerEvent: {}
+[33.075874] (-) TimerEvent: {}
+[33.176148] (-) TimerEvent: {}
+[33.276439] (-) TimerEvent: {}
+[33.376697] (-) TimerEvent: {}
+[33.476941] (-) TimerEvent: {}
+[33.577180] (-) TimerEvent: {}
+[33.677406] (-) TimerEvent: {}
+[33.777640] (-) TimerEvent: {}
+[33.877879] (-) TimerEvent: {}
+[33.978122] (-) TimerEvent: {}
+[34.078421] (-) TimerEvent: {}
+[34.178635] (-) TimerEvent: {}
+[34.278868] (-) TimerEvent: {}
+[34.379121] (-) TimerEvent: {}
+[34.479404] (-) TimerEvent: {}
+[34.579674] (-) TimerEvent: {}
+[34.679924] (-) TimerEvent: {}
+[34.780184] (-) TimerEvent: {}
+[34.880455] (-) TimerEvent: {}
+[34.980722] (-) TimerEvent: {}
+[35.080968] (-) TimerEvent: {}
+[35.181204] (-) TimerEvent: {}
+[35.281442] (-) TimerEvent: {}
+[35.381675] (-) TimerEvent: {}
+[35.481932] (-) TimerEvent: {}
+[35.582168] (-) TimerEvent: {}
+[35.682407] (-) TimerEvent: {}
+[35.782645] (-) TimerEvent: {}
+[35.882881] (-) TimerEvent: {}
+[35.983115] (-) TimerEvent: {}
+[36.083374] (-) TimerEvent: {}
+[36.183653] (-) TimerEvent: {}
+[36.283936] (-) TimerEvent: {}
+[36.384205] (-) TimerEvent: {}
+[36.484445] (-) TimerEvent: {}
+[36.584716] (-) TimerEvent: {}
+[36.684946] (-) TimerEvent: {}
+[36.785195] (-) TimerEvent: {}
+[36.885455] (-) TimerEvent: {}
+[36.985714] (-) TimerEvent: {}
+[37.085944] (-) TimerEvent: {}
+[37.186188] (-) TimerEvent: {}
+[37.286453] (-) TimerEvent: {}
+[37.386698] (-) TimerEvent: {}
+[37.486960] (-) TimerEvent: {}
+[37.587222] (-) TimerEvent: {}
+[37.687465] (-) TimerEvent: {}
+[37.787713] (-) TimerEvent: {}
+[37.887980] (-) TimerEvent: {}
+[37.988219] (-) TimerEvent: {}
+[38.088480] (-) TimerEvent: {}
+[38.188735] (-) TimerEvent: {}
+[38.288979] (-) TimerEvent: {}
+[38.389227] (-) TimerEvent: {}
+[38.489488] (-) TimerEvent: {}
+[38.589747] (-) TimerEvent: {}
+[38.689987] (-) TimerEvent: {}
+[38.790244] (-) TimerEvent: {}
+[38.890487] (-) TimerEvent: {}
+[38.990755] (-) TimerEvent: {}
+[39.090974] (-) TimerEvent: {}
+[39.191221] (-) TimerEvent: {}
+[39.291445] (-) TimerEvent: {}
+[39.391693] (-) TimerEvent: {}
+[39.491954] (-) TimerEvent: {}
+[39.592206] (-) TimerEvent: {}
+[39.692458] (-) TimerEvent: {}
+[39.792719] (-) TimerEvent: {}
+[39.892988] (-) TimerEvent: {}
+[39.993248] (-) TimerEvent: {}
+[40.093486] (-) TimerEvent: {}
+[40.193728] (-) TimerEvent: {}
+[40.293980] (-) TimerEvent: {}
+[40.394193] (-) TimerEvent: {}
+[40.494450] (-) TimerEvent: {}
+[40.542834] (fast_lio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fastlio_mapping\x1b[0m\n'}
+[40.594554] (-) TimerEvent: {}
+[40.694820] (-) TimerEvent: {}
+[40.795072] (-) TimerEvent: {}
+[40.895330] (-) TimerEvent: {}
+[40.995583] (-) TimerEvent: {}
+[41.095862] (-) TimerEvent: {}
+[41.181518] (fast_lio) StdoutLine: {'line': b'[100%] Built target fastlio_mapping\n'}
+[41.190878] (fast_lio) CommandEnded: {'returncode': 0}
+[41.191579] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[41.191840] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', ''), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[41.195916] (-) TimerEvent: {}
+[41.197920] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[41.198340] (fast_lio) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[41.198556] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[41.205730] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[41.211892] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[41.218409] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[41.224915] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[41.231046] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[41.236830] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[41.243747] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[41.250613] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[41.256645] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[41.263194] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[41.269124] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[41.274948] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[41.280867] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp\n'}
+[41.286600] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[41.292529] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[41.295980] (-) TimerEvent: {}
+[41.298251] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[41.304366] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[41.309944] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[41.315658] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[41.321483] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[41.327478] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[41.334015] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[41.340068] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[41.347169] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[41.352813] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[41.359064] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[41.365394] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[41.370980] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[41.377362] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[41.384033] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[41.390157] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.396046] (-) TimerEvent: {}
+[41.396153] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.402521] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.408304] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[41.414319] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[41.420424] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[41.426608] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[41.432469] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.432626] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.432803] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[41.433077] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/ament_index/resource_index/rust_packages/fast_lio\n'}
+[41.438907] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/rust/Cargo.toml\n'}
+[41.445130] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/rust/build.rs\n'}
+[41.451346] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/rust/src/lib.rs\n'}
+[41.457598] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/rust/src/msg.rs\n'}
+[41.463233] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/rust/src/msg/rmw.rs\n'}
+[41.469557] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[41.475656] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[41.482482] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[41.488688] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[41.494602] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[41.496110] (-) TimerEvent: {}
+[41.500359] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[41.506797] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[41.513032] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[41.519555] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[41.526295] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[41.532475] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[41.538566] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[41.544708] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[41.550668] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[41.556166] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[41.561891] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[41.568725] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[41.575083] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[41.581730] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[41.588277] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[41.594864] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/package.dsv\n'}
+[41.596144] (-) TimerEvent: {}
+[41.601152] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[41.607621] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[41.614209] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[41.620255] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[41.625981] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[41.632511] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[41.638863] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[41.645143] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[41.651582] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[41.657878] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[41.663674] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/package.xml\n'}
+[41.669727] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[41.670424] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""\n'}
+[41.670491] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[41.670546] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[41.670585] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[41.670832] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[41.670884] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[41.671213] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""\n'}
+[41.671289] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[41.671541] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""\n'}
+[41.671608] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[41.671905] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[41.671956] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[41.672434] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""\n'}
+[41.693411] (fast_lio) StdoutLine: {'line': b"Listing '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[41.693495] (fast_lio) StdoutLine: {'line': b"Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...\n"}
+[41.693537] (fast_lio) StdoutLine: {'line': b"Listing '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[41.693575] (fast_lio) StdoutLine: {'line': b"Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...\n"}
+[41.693611] (fast_lio) StdoutLine: {'line': b"Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...\n"}
+[41.695459] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[41.695779] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""\n'}
+[41.695832] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[41.695957] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[41.696073] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[41.696196] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[41.696253] (-) TimerEvent: {}
+[41.696335] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[41.696439] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[41.696551] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[41.696666] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[41.696791] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[41.696907] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[41.697023] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[41.697174] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[41.697296] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[41.697413] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[41.697530] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[41.697647] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[41.697766] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[41.699913] (fast_lio) CommandEnded: {'returncode': 0}
+[41.708830] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[41.709129] (-) EventReactorShutdown: {}

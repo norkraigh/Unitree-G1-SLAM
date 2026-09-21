@@ -1,0 +1,233 @@
+[0.007s] Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble /usr/bin/cmake /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.219s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.223s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.325s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.365s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.384s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.390s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.436s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.617s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.952s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.953s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.972s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.972s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.972s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.972s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.985s] -- Found PythonExtra: .so  
+[1.070s] -- Configuring done
+[1.101s] -- Generating done
+[1.110s] -- Build files have been written to: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2
+[1.115s] Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble /usr/bin/cmake /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2
+[1.117s] Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble /usr/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32
+[1.146s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.155s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.155s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.162s] [  7%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[1.306s] running egg_info
+[1.306s] creating livox_ros_driver2.egg-info
+[1.306s] writing livox_ros_driver2.egg-info/PKG-INFO
+[1.307s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[1.307s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[1.307s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.308s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.308s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[1.327s] [  7%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[1.383s] [  7%] Built target livox_ros_driver2__rs
+[1.409s] [  7%] Built target livox_ros_driver2__cpp
+[1.413s] [ 10%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[1.413s] [ 12%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[1.417s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.417s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.418s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.491s] [ 22%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[1.522s] [ 22%] Built target livox_ros_driver2__rosidl_generator_c
+[1.532s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.533s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.533s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.672s] [ 32%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[1.673s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[1.681s] [ 40%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[1.681s] [ 40%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[1.691s] [ 42%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[1.691s] [ 45%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[1.805s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[1.805s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[1.839s] [ 52%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[1.847s] [ 55%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[1.847s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[1.856s] [ 60%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[1.859s] [ 62%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[1.887s] [ 62%] Built target livox_ros_driver2__rosidl_typesupport_c
+[1.902s] [ 65%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[1.909s] [ 67%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[1.937s] [ 67%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c
+[1.943s] [ 67%] Built target livox_ros_driver2__rosidl_typesupport_cpp
+[2.010s] [ 70%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[2.039s] [ 72%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.062s] [ 72%] Built target livox_ros_driver2__rosidl_typesupport_introspection_cpp
+[2.090s] [ 72%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_cpp
+[2.090s] [ 75%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[2.139s] [ 75%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c
+[2.154s] [ 75%] Built target livox_ros_driver2
+[2.169s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.512s] [ 77%] Built target livox_ros_driver2__py
+[2.529s] [ 80%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[2.530s] [ 82%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[2.629s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_ros_driver2__rosidl_generator_py.so[0m
+[2.659s] [ 85%] Built target livox_ros_driver2__rosidl_generator_py
+[2.675s] [ 90%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.675s] [ 90%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[2.676s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.760s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.761s] [100%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.761s] [100%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.791s] [100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[2.791s] [100%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[2.792s] [100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[2.802s] Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble /usr/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32
+[2.810s] Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble /usr/bin/cmake --install /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2
+[2.817s] -- Install configuration: "Release"
+[2.817s] -- Execute custom install script
+[2.818s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[2.825s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[2.832s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[2.840s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[2.847s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[2.855s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[2.862s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[2.869s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[2.877s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[2.884s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[2.891s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[2.898s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[2.906s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[2.912s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[2.920s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.927s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[2.936s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[2.943s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.951s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[2.959s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[2.968s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[2.975s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[2.981s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[2.988s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[2.995s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[3.002s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[3.008s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[3.015s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[3.022s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.029s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.036s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.042s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.051s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[3.061s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[3.077s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[3.084s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/PKG-INFO
+[3.091s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/SOURCES.txt
+[3.098s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/dependency_links.txt
+[3.105s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-0.0.1-py3.10.egg-info/top_level.txt
+[3.113s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[3.120s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[3.128s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.136s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[3.143s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_ros_driver2__rosidl_generator_py.so
+[3.151s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.159s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.167s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.174s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[3.182s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[3.189s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[3.195s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[3.203s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[3.211s] -- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.211s] -- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.211s] -- Up-to-date symlink: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.211s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2
+[3.219s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml
+[3.227s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs
+[3.235s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs
+[3.242s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs
+[3.250s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs
+[3.258s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[3.266s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[3.273s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[3.280s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[3.288s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[3.295s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[3.303s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[3.311s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[3.318s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[3.326s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[3.333s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[3.341s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[3.348s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[3.355s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[3.363s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[3.371s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[3.378s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[3.386s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.393s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.401s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[3.409s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[3.418s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.426s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.434s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[3.443s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[3.450s] -- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[3.458s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[3.458s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[3.459s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[3.459s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[3.459s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[3.460s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[3.460s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[3.460s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[3.460s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[3.461s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.461s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[3.461s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[3.461s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[3.461s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[3.485s] Listing '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[3.486s] Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[3.486s] Listing '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[3.486s] Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+[3.486s] Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[3.486s] Compiling '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+[3.489s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_py.so
+[3.489s] -- Set runtime path of "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_py.so" to ""
+[3.490s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport.cmake
+[3.490s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport-release.cmake
+[3.490s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport.cmake
+[3.490s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport-release.cmake
+[3.490s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport.cmake
+[3.490s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport-release.cmake
+[3.490s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport.cmake
+[3.491s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport-release.cmake
+[3.491s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cppExport.cmake
+[3.491s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.491s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[3.491s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport.cmake
+[3.491s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.491s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport.cmake
+[3.492s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport-release.cmake
+[3.492s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport.cmake
+[3.492s] -- Installing: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport-release.cmake
+[3.495s] Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble /usr/bin/cmake --install /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2

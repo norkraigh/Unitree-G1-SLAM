@@ -1,0 +1,183 @@
+{
+    "topics": {
+        "lidar": "/livox/lidar",
+        "imu": "/livox/imu"
+    },
+    "frames": {
+        "fixed_frame": "map",
+        "robot_frame": "livox_frame",
+        "corrected_lidar_frame": "livox_corrected_frame"
+    },
+    "slam": {
+        "algorithm": "kiss_icp",
+        "algorithm_options": {
+            "icp": {
+                "voxel_size": 0.15,
+                "max_correspondence_distance": 1.0,
+                "max_iterations": 30,
+                "min_fitness": 0.15,
+                "cloud_skip": 1,
+                "use_imu_rotation_initial_guess": true,
+                "scan_to_scan_prediction": {
+                    "enabled": true,
+                    "max_correspondence_distance": 0.7,
+                    "max_iterations": 12,
+                    "min_fitness": 0.15,
+                    "max_rmse": 0.35
+                },
+                "deskew": {
+                    "enabled": false,
+                    "use_imu_rotation": true,
+                    "max_scan_duration_sec": 0.15,
+                    "imu_buffer_sec": 2.0,
+                    "max_imu_extrapolation_sec": 0.02,
+                    "max_imu_gap_sec": 0.05
+                },
+                "plausibility": {
+                    "enabled": true,
+                    "max_rmse": 0.3,
+                    "max_translation_step_m": 1.5,
+                    "max_linear_speed_mps": 3.0,
+                    "translation_margin_m": 0.15,
+                    "max_yaw_step_deg": 120.0,
+                    "max_yaw_rate_deg_s": 360.0,
+                    "yaw_margin_deg": 5.0,
+                    "use_imu_yaw_gate": true,
+                    "max_imu_yaw_difference_deg": 8.0
+                },
+                "recovery": {
+                    "enabled": true,
+                    "use_optimized_map": true,
+                    "optimized_map_topic": "/g1/slam/optimized/local_map",
+                    "trigger_after_rejections": 3,
+                    "attempt_every_n_rejections": 2,
+                    "max_keyframes": 250,
+                    "map_voxel_size": 0.3,
+                    "source_voxel_size": 0.3,
+                    "max_map_points": 30000,
+                    "max_correspondence_distance": 1.5,
+                    "max_iterations": 8,
+                    "min_fitness": 0.3,
+                    "max_rmse": 0.35,
+                    "max_translation_from_tracking_m": 2.0,
+                    "max_rotation_from_tracking_deg": 60.0,
+                    "yaw_offsets_deg": [
+                        0.0,
+                        -20.0,
+                        20.0
+                    ],
+                    "confirmation_required": 2,
+                    "confirmation_max_translation_m": 0.6,
+                    "confirmation_max_rotation_deg": 12.0
+                }
+            },
+            "kiss_icp": {
+                "config_file": "config/kiss_icp_mid360.yaml",
+                "topic": "/livox/lidar",
+                "base_frame": "livox_corrected_frame",
+                "lidar_odom_frame": "map",
+                "publish_odom_tf": true,
+                "invert_odom_tf": false,
+                "publish_debug_clouds": true,
+                "correct_local_map_for_base_frame_bug": true
+            },
+            "fast_lio2": {
+                "config_file": "config/fast_lio2_mid360.yaml",
+                "input_format": "livox_mid360_pointcloud2_with_timestamp",
+                "internal_fixed_frame": "camera_init",
+                "body_frame": "body",
+                "lidar_frame": "livox_frame"
+            }
+        }
+    },
+    "global_optimization": {
+        "enabled": true,
+        "algorithm": "pose_graph",
+        "odom_topic": "/g1/slam/odom",
+        "aligned_cloud_topic": "/g1/slam/aligned_cloud",
+        "sync_tolerance_sec": 0.08,
+        "sync_queue_size": 30,
+        "clock_jump_threshold_sec": 1.0,
+        "loop_closure": {
+            "keyframe_min_translation": 0.5,
+            "keyframe_min_yaw_deg": 10.0,
+            "min_keyframe_separation": 25,
+            "search_radius": 2.0,
+            "max_candidates": 3,
+            "voxel_size": 0.2,
+            "max_correspondence_distance": 0.7,
+            "max_iterations": 40,
+            "min_fitness": 0.35,
+            "max_rmse": 0.3,
+            "max_correction_translation": 1.5,
+            "max_correction_yaw_deg": 45.0,
+            "check_every_n_keyframes": 2,
+            "min_loop_interval_keyframes": 5
+        },
+        "optimizer": {
+            "edge_prune_threshold": 0.25,
+            "preference_loop_closure": 2.0,
+            "reference_node": 0
+        },
+        "publish": {
+            "map_every_n_keyframes": 10,
+            "map_voxel_size": 0.15,
+            "max_map_points": 150000
+        },
+        "process_nice": 5
+    },
+    "mapping": {
+        "enable_aligned_cloud": true,
+        "aligned_cloud_dense": false,
+        "enable_local_map": true,
+        "use_local_map_for_icp": true,
+        "min_local_map_frames": 3,
+        "local_map_voxel_size": 0.15,
+        "max_local_map_points": 30000,
+        "max_local_map_keyframes": 12,
+        "keyframe_min_translation": 0.25,
+        "keyframe_min_yaw_deg": 7.0
+    },
+    "motion_model": {
+        "planar_mode": false
+    },
+    "sensors": {
+        "livox": {
+            "apply_mount_correction": true,
+            "translation_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation_deg": {
+                "roll": 180.0,
+                "pitch": 0.0,
+                "yaw": 0.0
+            }
+        }
+    },
+    "filters": {
+        "min_range": 0.4,
+        "max_range": 35.0,
+        "max_points_before_downsample": 120000,
+        "min_points": 800
+    },
+    "debug": {
+        "publish_tf": true,
+        "publish_status": true,
+        "publish_clouds": false,
+        "max_path_length": 5000
+    },
+    "reset": {
+        "enable_auto_reset_on_clock_jump": true,
+        "clock_jump_threshold_sec": 1.0,
+        "clear_local_map": true,
+        "clear_path": true,
+        "reset_pose_to_identity": true
+    },
+    "performance": {
+        "lidar_qos_depth": 1,
+        "expected_scan_period_sec": 0.1,
+        "drop_detection_factor": 1.5
+    }
+}

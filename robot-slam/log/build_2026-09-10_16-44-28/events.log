@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000416] (-) JobUnselected: {'identifier': 'g1_lidar_odometry'}
+[0.000494] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000514] (kiss_icp) JobQueued: {'identifier': 'kiss_icp', 'dependencies': OrderedDict()}
+[0.000549] (kiss_icp) JobStarted: {'identifier': 'kiss_icp'}
+[0.006951] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'cmake'}
+[0.007450] (kiss_icp) Command: {'cmd': ['/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/kiss-icp/ros', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', '(g1-slam-pc)'), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', '/home/ugiviag1/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'g1-slam-pc'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', '/home/ugiviag1/miniconda3/envs/g1-slam-pc'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[0.099651] (-) TimerEvent: {}
+[0.199814] (-) TimerEvent: {}
+[0.219265] (kiss_icp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.232054] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299881] (-) TimerEvent: {}
+[0.303037] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.316943] (kiss_icp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.318145] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.318869] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399957] (-) TimerEvent: {}
+[0.500142] (-) TimerEvent: {}
+[0.600307] (-) TimerEvent: {}
+[0.700510] (-) TimerEvent: {}
+[0.800784] (-) TimerEvent: {}
+[0.901131] (-) TimerEvent: {}
+[1.001476] (-) TimerEvent: {}
+[1.101857] (-) TimerEvent: {}
+[1.202151] (-) TimerEvent: {}
+[1.302328] (-) TimerEvent: {}
+[1.370615] (kiss_icp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.378322] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.402398] (-) TimerEvent: {}
+[1.432267] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.445095] (kiss_icp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.445432] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.445767] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.502471] (-) TimerEvent: {}
+[1.602629] (-) TimerEvent: {}
+[1.702812] (-) TimerEvent: {}
+[1.802927] (-) TimerEvent: {}
+[1.903075] (-) TimerEvent: {}
+[2.003287] (-) TimerEvent: {}
+[2.103543] (-) TimerEvent: {}
+[2.203674] (-) TimerEvent: {}
+[2.301766] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[2.301943] (kiss_icp) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[2.302005] (kiss_icp) StderrLine: {'line': b'  CMake.\n'}
+[2.302058] (kiss_icp) StderrLine: {'line': b'\n'}
+[2.302107] (kiss_icp) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[2.302155] (kiss_icp) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[2.302204] (kiss_icp) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[2.302249] (kiss_icp) StderrLine: {'line': b'\n'}
+[2.302292] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[2.303733] (-) TimerEvent: {}
+[2.308648] (kiss_icp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.399131] (kiss_icp) StdoutLine: {'line': b'-- Found Python3: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3 (found version "3.10.20") found components: Interpreter\n'}
+[2.403816] (-) TimerEvent: {}
+[2.456217] (kiss_icp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.491374] (kiss_icp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.503882] (-) TimerEvent: {}
+[2.539265] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.545691] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.557057] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.573894] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.593252] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.603939] (-) TimerEvent: {}
+[2.645637] (kiss_icp) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.670611] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.703996] (-) TimerEvent: {}
+[2.711436] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.714231] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.790552] (kiss_icp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[2.804058] (-) TimerEvent: {}
+[2.811902] (kiss_icp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[2.843192] (kiss_icp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.851901] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.904146] (-) TimerEvent: {}
+[2.910575] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.911496] (kiss_icp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.953458] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.981517] (kiss_icp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.000571] (kiss_icp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.004198] (-) TimerEvent: {}
+[3.074077] (kiss_icp) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.104251] (-) TimerEvent: {}
+[3.147764] (kiss_icp) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.170895] (kiss_icp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.174208] (kiss_icp) StdoutLine: {'line': b'-- Build files have been written to: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp\n'}
+[3.182934] (kiss_icp) CommandEnded: {'returncode': 0}
+[3.183440] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'build'}
+[3.184002] (kiss_icp) Command: {'cmd': ['/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake', '--build', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp', '--', '-j32', '-l32'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', '(g1-slam-pc)'), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', '/home/ugiviag1/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'g1-slam-pc'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', '/home/ugiviag1/miniconda3/envs/g1-slam-pc'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[3.204326] (-) TimerEvent: {}
+[3.249666] (kiss_icp) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o\x1b[0m\n'}
+[3.250189] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o\x1b[0m\n'}
+[3.250267] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o\x1b[0m\n'}
+[3.250368] (kiss_icp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o\x1b[0m\n'}
+[3.250542] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o\x1b[0m\n'}
+[3.250652] (kiss_icp) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o\x1b[0m\n'}
+[3.250772] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o\x1b[0m\n'}
+[3.304405] (-) TimerEvent: {}
+[3.404576] (-) TimerEvent: {}
+[3.504711] (-) TimerEvent: {}
+[3.604875] (-) TimerEvent: {}
+[3.705059] (-) TimerEvent: {}
+[3.805254] (-) TimerEvent: {}
+[3.905509] (-) TimerEvent: {}
+[4.005752] (-) TimerEvent: {}
+[4.105981] (-) TimerEvent: {}
+[4.206225] (-) TimerEvent: {}
+[4.306497] (-) TimerEvent: {}
+[4.406732] (-) TimerEvent: {}
+[4.506884] (-) TimerEvent: {}
+[4.607014] (-) TimerEvent: {}
+[4.707130] (-) TimerEvent: {}
+[4.807247] (-) TimerEvent: {}
+[4.907388] (-) TimerEvent: {}
+[5.007539] (-) TimerEvent: {}
+[5.107673] (-) TimerEvent: {}
+[5.207792] (-) TimerEvent: {}
+[5.307946] (-) TimerEvent: {}
+[5.408101] (-) TimerEvent: {}
+[5.415070] (kiss_icp) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable kiss_icp_node\x1b[0m\n'}
+[5.479035] (kiss_icp) StdoutLine: {'line': b'[ 57%] Built target kiss_icp_node\n'}
+[5.508176] (-) TimerEvent: {}
+[5.608325] (-) TimerEvent: {}
+[5.708452] (-) TimerEvent: {}
+[5.808589] (-) TimerEvent: {}
+[5.908731] (-) TimerEvent: {}
+[6.008873] (-) TimerEvent: {}
+[6.109017] (-) TimerEvent: {}
+[6.209143] (-) TimerEvent: {}
+[6.309269] (-) TimerEvent: {}
+[6.409384] (-) TimerEvent: {}
+[6.509509] (-) TimerEvent: {}
+[6.609632] (-) TimerEvent: {}
+[6.709759] (-) TimerEvent: {}
+[6.809885] (-) TimerEvent: {}
+[6.910023] (-) TimerEvent: {}
+[6.949918] (kiss_icp) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX static library libkiss_icp_core.a\x1b[0m\n'}
+[6.967018] (kiss_icp) StdoutLine: {'line': b'[ 64%] Built target kiss_icp_core\n'}
+[6.975140] (kiss_icp) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o\x1b[0m\n'}
+[7.010093] (-) TimerEvent: {}
+[7.110264] (-) TimerEvent: {}
+[7.210413] (-) TimerEvent: {}
+[7.310539] (-) TimerEvent: {}
+[7.410655] (-) TimerEvent: {}
+[7.510783] (-) TimerEvent: {}
+[7.610915] (-) TimerEvent: {}
+[7.711044] (-) TimerEvent: {}
+[7.811186] (-) TimerEvent: {}
+[7.887682] (kiss_icp) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX static library libkiss_icp_pipeline.a\x1b[0m\n'}
+[7.899636] (kiss_icp) StdoutLine: {'line': b'[ 78%] Built target kiss_icp_pipeline\n'}
+[7.907723] (kiss_icp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o\x1b[0m\n'}
+[7.911250] (-) TimerEvent: {}
+[8.011382] (-) TimerEvent: {}
+[8.111517] (-) TimerEvent: {}
+[8.211632] (-) TimerEvent: {}
+[8.311777] (-) TimerEvent: {}
+[8.411920] (-) TimerEvent: {}
+[8.512061] (-) TimerEvent: {}
+[8.612215] (-) TimerEvent: {}
+[8.712402] (-) TimerEvent: {}
+[8.812542] (-) TimerEvent: {}
+[8.912696] (-) TimerEvent: {}
+[9.012919] (-) TimerEvent: {}
+[9.113055] (-) TimerEvent: {}
+[9.213190] (-) TimerEvent: {}
+[9.313313] (-) TimerEvent: {}
+[9.413456] (-) TimerEvent: {}
+[9.513636] (-) TimerEvent: {}
+[9.613924] (-) TimerEvent: {}
+[9.714162] (-) TimerEvent: {}
+[9.727801] (kiss_icp) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX static library libkiss_icp_metrics.a\x1b[0m\n'}
+[9.741370] (kiss_icp) StdoutLine: {'line': b'[ 92%] Built target kiss_icp_metrics\n'}
+[9.814233] (-) TimerEvent: {}
+[9.914387] (-) TimerEvent: {}
+[10.014525] (-) TimerEvent: {}
+[10.114649] (-) TimerEvent: {}
+[10.214787] (-) TimerEvent: {}
+[10.315054] (-) TimerEvent: {}
+[10.415315] (-) TimerEvent: {}
+[10.515564] (-) TimerEvent: {}
+[10.615839] (-) TimerEvent: {}
+[10.716092] (-) TimerEvent: {}
+[10.816355] (-) TimerEvent: {}
+[10.916610] (-) TimerEvent: {}
+[11.016868] (-) TimerEvent: {}
+[11.117134] (-) TimerEvent: {}
+[11.217393] (-) TimerEvent: {}
+[11.317650] (-) TimerEvent: {}
+[11.417885] (-) TimerEvent: {}
+[11.518142] (-) TimerEvent: {}
+[11.618381] (-) TimerEvent: {}
+[11.718622] (-) TimerEvent: {}
+[11.818878] (-) TimerEvent: {}
+[11.919124] (-) TimerEvent: {}
+[12.019385] (-) TimerEvent: {}
+[12.119600] (-) TimerEvent: {}
+[12.219846] (-) TimerEvent: {}
+[12.320078] (-) TimerEvent: {}
+[12.420304] (-) TimerEvent: {}
+[12.520525] (-) TimerEvent: {}
+[12.620779] (-) TimerEvent: {}
+[12.720998] (-) TimerEvent: {}
+[12.821237] (-) TimerEvent: {}
+[12.921488] (-) TimerEvent: {}
+[13.021739] (-) TimerEvent: {}
+[13.122013] (-) TimerEvent: {}
+[13.222283] (-) TimerEvent: {}
+[13.322532] (-) TimerEvent: {}
+[13.422793] (-) TimerEvent: {}
+[13.523044] (-) TimerEvent: {}
+[13.623308] (-) TimerEvent: {}
+[13.723558] (-) TimerEvent: {}
+[13.823831] (-) TimerEvent: {}
+[13.924085] (-) TimerEvent: {}
+[14.024346] (-) TimerEvent: {}
+[14.124600] (-) TimerEvent: {}
+[14.224845] (-) TimerEvent: {}
+[14.325099] (-) TimerEvent: {}
+[14.425338] (-) TimerEvent: {}
+[14.525569] (-) TimerEvent: {}
+[14.625790] (-) TimerEvent: {}
+[14.726041] (-) TimerEvent: {}
+[14.826296] (-) TimerEvent: {}
+[14.926565] (-) TimerEvent: {}
+[15.026816] (-) TimerEvent: {}
+[15.127094] (-) TimerEvent: {}
+[15.227351] (-) TimerEvent: {}
+[15.327613] (-) TimerEvent: {}
+[15.427852] (-) TimerEvent: {}
+[15.528104] (-) TimerEvent: {}
+[15.628346] (-) TimerEvent: {}
+[15.728594] (-) TimerEvent: {}
+[15.828854] (-) TimerEvent: {}
+[15.929107] (-) TimerEvent: {}
+[16.029372] (-) TimerEvent: {}
+[16.129623] (-) TimerEvent: {}
+[16.229880] (-) TimerEvent: {}
+[16.330142] (-) TimerEvent: {}
+[16.430408] (-) TimerEvent: {}
+[16.530667] (-) TimerEvent: {}
+[16.630932] (-) TimerEvent: {}
+[16.731178] (-) TimerEvent: {}
+[16.831447] (-) TimerEvent: {}
+[16.931697] (-) TimerEvent: {}
+[17.031965] (-) TimerEvent: {}
+[17.132227] (-) TimerEvent: {}
+[17.232454] (-) TimerEvent: {}
+[17.332699] (-) TimerEvent: {}
+[17.432946] (-) TimerEvent: {}
+[17.533181] (-) TimerEvent: {}
+[17.633434] (-) TimerEvent: {}
+[17.733660] (-) TimerEvent: {}
+[17.778126] (kiss_icp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libodometry_component.so\x1b[0m\n'}
+[17.833757] (-) TimerEvent: {}
+[17.894045] (kiss_icp) StdoutLine: {'line': b'[100%] Built target odometry_component\n'}
+[17.898783] (kiss_icp) CommandEnded: {'returncode': 0}
+[17.899358] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'install'}
+[17.933827] (-) TimerEvent: {}
+[17.945655] (kiss_icp) Command: {'cmd': ['/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake', '--install', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', '(g1-slam-pc)'), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', '/home/ugiviag1/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'g1-slam-pc'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', '/home/ugiviag1/miniconda3/envs/g1-slam-pc'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[17.988948] (kiss_icp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[17.989727] (kiss_icp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.989990] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib/kiss_icp/kiss_icp_node\n'}
+[17.992460] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib/libodometry_component.so\n'}
+[17.995261] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py\n'}
+[17.997569] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz\n'}
+[17.999899] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp//config/config.yaml\n'}
+[18.002075] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp\n'}
+[18.004157] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp\n'}
+[18.006336] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh\n'}
+[18.008689] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv\n'}
+[18.011583] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/path.sh\n'}
+[18.014052] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/path.dsv\n'}
+[18.016482] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.bash\n'}
+[18.019382] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.sh\n'}
+[18.021722] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.zsh\n'}
+[18.024156] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.dsv\n'}
+[18.026293] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/package.dsv\n'}
+[18.028616] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp\n'}
+[18.031010] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp\n'}
+[18.033272] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake\n'}
+[18.033890] (-) TimerEvent: {}
+[18.036129] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake\n'}
+[18.038534] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/package.xml\n'}
+[18.041602] (kiss_icp) CommandEnded: {'returncode': 0}
+[18.053198] (kiss_icp) JobEnded: {'identifier': 'kiss_icp', 'rc': 0}
+[18.053653] (-) EventReactorShutdown: {}

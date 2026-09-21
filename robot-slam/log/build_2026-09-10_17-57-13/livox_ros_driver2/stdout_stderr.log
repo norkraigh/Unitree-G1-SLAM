@@ -1,0 +1,49 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  7%] Built target ament_cmake_python_symlink_livox_ros_driver2
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+    from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+    from rosidl_cmake import generate_files
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 8, in <module>
+    from rosidl_generator_rs import generate_rs
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py", line 21, in <module>
+    import rosidl_cmake as rosidl_pycommon
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/build.make:120: rosidl_generator_c/livox_ros_driver2/msg/custom_point.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:282: CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/livox_ros_driver2__cpp.dir/build.make:131: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/livox_ros_driver2__cpp.dir/all] Error 2
+gmake[2]: *** [/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2/livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/build.make:124: rosidl_generator_rs/livox_ros_driver2/rust/src/lib.rs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:782: livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/all] Error 2
+running egg_info
+writing livox_ros_driver2.egg-info/PKG-INFO
+writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[  7%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+gmake: *** [Makefile:146: all] Error 2

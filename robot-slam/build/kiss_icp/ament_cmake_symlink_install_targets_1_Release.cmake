@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp/libodometry_component.so" "TARGETS" "odometry_component" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/kiss_icp")

@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000194] (-) JobUnselected: {'identifier': 'g1_lidar_odometry'}
+[0.000334] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.000413] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000517] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2')])}
+[0.000545] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.006656] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 1}
+[0.016966] (-) EventReactorShutdown: {}

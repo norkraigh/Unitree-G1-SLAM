@@ -1,0 +1,3 @@
+[console_scripts]
+livox_slam_pose_node = g1_lidar_odometry.livox_slam_pose_node:main
+

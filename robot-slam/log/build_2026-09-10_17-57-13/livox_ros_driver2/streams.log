@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32
+[0.048s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.054s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.054s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.056s] [  7%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[0.084s] Traceback (most recent call last):
+[0.084s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[0.084s]     from rosidl_generator_c import generate_c
+[0.084s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[0.084s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[0.084s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[0.084s]     from rosidl_parser.parser import parse_idl_file
+[0.084s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[0.084s]     from lark import Lark
+[0.084s] ModuleNotFoundError: No module named 'lark'
+[0.087s] Traceback (most recent call last):
+[0.087s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[0.087s]     from rosidl_generator_cpp import generate_cpp
+[0.087s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[0.087s]     from rosidl_cmake import generate_files
+[0.087s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[0.087s]     from rosidl_parser.parser import parse_idl_file
+[0.087s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[0.088s]     from lark import Lark
+[0.088s] ModuleNotFoundError: No module named 'lark'
+[0.089s] Traceback (most recent call last):
+[0.089s]   File "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 8, in <module>
+[0.089s]     from rosidl_generator_rs import generate_rs
+[0.089s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py", line 21, in <module>
+[0.089s]     import rosidl_cmake as rosidl_pycommon
+[0.089s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[0.089s]     from rosidl_parser.parser import parse_idl_file
+[0.089s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+[0.089s]     from lark import Lark
+[0.089s] ModuleNotFoundError: No module named 'lark'
+[0.090s] gmake[2]: *** [CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/build.make:120: rosidl_generator_c/livox_ros_driver2/msg/custom_point.h] Error 1
+[0.090s] gmake[1]: *** [CMakeFiles/Makefile2:282: CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/all] Error 2
+[0.090s] gmake[1]: *** Waiting for unfinished jobs....
+[0.092s] gmake[2]: *** [CMakeFiles/livox_ros_driver2__cpp.dir/build.make:131: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp] Error 1
+[0.092s] gmake[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/livox_ros_driver2__cpp.dir/all] Error 2
+[0.093s] gmake[2]: *** [/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2/livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/build.make:124: rosidl_generator_rs/livox_ros_driver2/rust/src/lib.rs] Error 1
+[0.094s] gmake[1]: *** [CMakeFiles/Makefile2:782: livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/all] Error 2
+[0.181s] running egg_info
+[0.187s] writing livox_ros_driver2.egg-info/PKG-INFO
+[0.188s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[0.188s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[0.208s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.209s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.225s] [  7%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[0.226s] gmake: *** [Makefile:146: all] Error 2
+[0.231s] Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32

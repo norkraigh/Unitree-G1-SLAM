@@ -1,0 +1,767 @@
+[0.050s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'fast_lio', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.050s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['fast_lio'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x789602b4d0c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x789602cc6710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x789602cc6710>>)
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.127s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_123844_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_125706_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130413_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130839_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130903_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_130946_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_134021_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_142306_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_143717_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_144847_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_145520_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_150207_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_151240_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_152226_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_153844_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155629_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_155900_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160315_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_160521_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_163600_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_164703_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165145_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165443_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'ros'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extensions ['cmake', 'python']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'cmake'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_165617_kiss_icp_pose_graph_tfm-bag-02) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170029_kiss_icp_pose_graph_tfm-bag-02) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170349_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170429_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_170901_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171004_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171111_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171257_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_171728_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172435_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172618_kiss_icp_pose_graph_tfm-bag-01) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_172700_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_173444_kiss_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_174413_icp_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(results/runs/20260910_175039_fast_lio2_pose_graph_tfm-bag-00) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/g1_lidar_odometry) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/g1_lidar_odometry' with type 'ros.ament_python' and name 'g1_lidar_odometry'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kiss-icp/ros' with type 'ros.ament_cmake' and name 'kiss_icp'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2_interfaces_shim) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2_interfaces_shim' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] INFO:colcon.colcon_core.package_selection:Skipping package 'kiss_icp' in 'src/kiss-icp/ros'
+[0.167s] INFO:colcon.colcon_core.package_selection:Skipping package 'g1_lidar_odometry' in 'src/g1_lidar_odometry'
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.168s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install
+[0.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/humble
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim', 'symlink_install': True, 'test_result_base': None}
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio', 'merge_install': False, 'path': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/FAST_LIO', 'symlink_install': True, 'test_result_base': None}
+[0.189s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.190s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim' with build type 'ament_cmake'
+[0.190s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim'
+[0.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2
+[1.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2
+[1.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32
+[2.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble CONDA_PROMPT_MODIFIER=(g1-slam-pc) /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake --build /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2 -- -j32 -l32
+[2.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2' for CMake module files
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2' for CMake config files
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/bin'
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib/python3.10/site-packages'
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/bin'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[2.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[2.033s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.033s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.033s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.033s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.037s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.044s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/local_setup.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/_local_setup_util_ps1.py'
+[2.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/setup.ps1'
+[2.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/local_setup.sh'
+[2.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/_local_setup_util_sh.py'
+[2.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/setup.sh'
+[2.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/local_setup.bash'
+[2.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/setup.bash'
+[2.048s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/local_setup.zsh'
+[2.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/setup.zsh'

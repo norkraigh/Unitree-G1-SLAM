@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (-) JobUnselected: {'identifier': 'g1_lidar_odometry'}
+[0.000410] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.000515] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000547] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2')])}
+[0.000575] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.005318] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.005761] (livox_ros_driver2) Command: {'cmd': ['/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/src/livox_ros_driver2_interfaces_shim', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', '(g1-slam-pc)'), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', '/home/ugiviag1/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'g1-slam-pc'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', '/home/ugiviag1/miniconda3/envs/g1-slam-pc'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[0.050907] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.051031] (livox_ros_driver2) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.051098] (livox_ros_driver2) StderrLine: {'line': b'  CMake.\n'}
+[0.051155] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[0.051210] (livox_ros_driver2) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.051261] (livox_ros_driver2) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.051311] (livox_ros_driver2) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.051358] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[0.051404] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.081592] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099821] (-) TimerEvent: {}
+[0.125725] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.131212] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.173617] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.183539] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.183757] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.184020] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.191902] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199835] (-) TimerEvent: {}
+[0.242252] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.253681] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.254064] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.254452] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.260115] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299917] (-) TimerEvent: {}
+[0.324173] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3 (found version "3.10.20") found components: Interpreter\n'}
+[0.359624] (livox_ros_driver2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.378663] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.381036] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.385524] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399978] (-) TimerEvent: {}
+[0.413889] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.442208] (livox_ros_driver2) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.500053] (-) TimerEvent: {}
+[0.600234] (-) TimerEvent: {}
+[0.700453] (-) TimerEvent: {}
+[0.700814] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800537] (-) TimerEvent: {}
+[0.900750] (-) TimerEvent: {}
+[0.943342] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000818] (-) TimerEvent: {}
+[1.101013] (-) TimerEvent: {}
+[1.201191] (-) TimerEvent: {}
+[1.259130] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.261610] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.261696] (livox_ros_driver2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.261753] (livox_ros_driver2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.261802] (livox_ros_driver2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.261860] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.261909] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.261956] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.262003] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.262044] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:8 (rosidl_generate_interfaces)\n'}
+[1.262075] (livox_ros_driver2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.262107] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.271577] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3 (found suitable version "3.10.20", minimum required is "3.6")\n'}
+[1.273175] (livox_ros_driver2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.273837] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[1.273917] (livox_ros_driver2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.273959] (livox_ros_driver2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.273997] (livox_ros_driver2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.274031] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.274067] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.274099] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.274132] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.274164] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.274195] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:8 (rosidl_generate_interfaces)\n'}
+[1.274226] (livox_ros_driver2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.274257] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.284192] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[1.284313] (livox_ros_driver2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.284384] (livox_ros_driver2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.284439] (livox_ros_driver2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.284489] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.284535] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.284590] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.284636] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.284683] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.284729] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:8 (rosidl_generate_interfaces)\n'}
+[1.284775] (livox_ros_driver2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.284820] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.287913] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonLibs: /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib/libpython3.10.so (found suitable version "3.10.20", minimum required is "3.5")\n'}
+[1.288055] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3\n'}
+[1.288122] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/ugiviag1/miniconda3/envs/g1-slam-pc/include/python3.10\n'}
+[1.288176] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib/libpython3.10.so\n'}
+[1.298288] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[1.301486] (-) TimerEvent: {}
+[1.401685] (-) TimerEvent: {}
+[1.421303] (livox_ros_driver2) StdoutLine: {'line': b'-- Using numpy include directory: /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib/python3.10/site-packages/numpy/core/include\n'}
+[1.501773] (-) TimerEvent: {}
+[1.519484] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.540760] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):\n'}
+[1.540898] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.540948] (livox_ros_driver2) StderrLine: {'line': b'  livox_ros_driver2__rosidl_generator_py because files in some directories\n'}
+[1.540990] (livox_ros_driver2) StderrLine: {'line': b'  may conflict with libraries in implicit directories:\n'}
+[1.541028] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.541066] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.541105] (livox_ros_driver2) StderrLine: {'line': b'      /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib\n'}
+[1.541140] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.541173] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.541207] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.541241] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.541278] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.541313] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:8 (rosidl_generate_interfaces)\n'}
+[1.541347] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.541381] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.543118] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[1.543185] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.543225] (livox_ros_driver2) StderrLine: {'line': b'  livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext because files in\n'}
+[1.543262] (livox_ros_driver2) StderrLine: {'line': b'  some directories may conflict with libraries in implicit directories:\n'}
+[1.543298] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.543332] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.543367] (livox_ros_driver2) StderrLine: {'line': b'      /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib\n'}
+[1.543401] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.543435] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.543476] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.543513] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.543548] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.543585] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:8 (rosidl_generate_interfaces)\n'}
+[1.543619] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.543653] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.545338] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[1.545391] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.545428] (livox_ros_driver2) StderrLine: {'line': b'  livox_ros_driver2__rosidl_typesupport_introspection_c__pyext because files\n'}
+[1.545476] (livox_ros_driver2) StderrLine: {'line': b'  in some directories may conflict with libraries in implicit directories:\n'}
+[1.545513] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.545547] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.545580] (livox_ros_driver2) StderrLine: {'line': b'      /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib\n'}
+[1.545613] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.545650] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.545684] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.545717] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.545749] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.545784] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:8 (rosidl_generate_interfaces)\n'}
+[1.545818] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.545866] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.547608] (livox_ros_driver2) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[1.547667] (livox_ros_driver2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.547705] (livox_ros_driver2) StderrLine: {'line': b'  livox_ros_driver2__rosidl_typesupport_c__pyext because files in some\n'}
+[1.547741] (livox_ros_driver2) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[1.547776] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.547810] (livox_ros_driver2) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.547858] (livox_ros_driver2) StderrLine: {'line': b'      /home/ugiviag1/miniconda3/envs/g1-slam-pc/lib\n'}
+[1.547895] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.547929] (livox_ros_driver2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.547967] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.548003] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.548038] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.548071] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:8 (rosidl_generate_interfaces)\n'}
+[1.548107] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[1.548140] (livox_ros_driver2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.555506] (livox_ros_driver2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.561682] (livox_ros_driver2) StdoutLine: {'line': b'-- Build files have been written to: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2\n'}
+[1.568375] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[1.568753] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[1.569253] (livox_ros_driver2) Command: {'cmd': ['/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/cmake', '--build', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', '--', '-j32', '-l32'], 'cwd': '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/ugiviag1/G1_Env/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('XR_TELEOP_KEY', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/key.pem'), ('CONDA_PROMPT_MODIFIER', '(g1-slam-pc)'), ('USER', 'ugiviag1'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('ISAACSIM_PATH', '/home/ugiviag1/G1_Env/isaacsim'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/lib:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib:/usr/local/cuda-13.0/lib64:/usr/local/cuda-13.0/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ugiviag1'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('PYTHONNOUSERSITE', '1'), ('_CONDA_ROOT', '/home/ugiviag1/miniconda3'), ('COLCON_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ugiviag1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ugiviag1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-13.0/bin:/home/ugiviag1/miniconda3/envs/g1-slam-pc/bin:/home/ugiviag1/miniconda3/condabin:/opt/ros/humble/bin:/home/ugiviag1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ugiviarobots:@/tmp/.ICE-unix/2338,unix/ugiviarobots:/tmp/.ICE-unix/2338'), ('VK_ICD_FILENAMES', '/usr/share/vulkan/icd.d/nvidia_icd.json'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/433ada49_43d7_4d6f_a414_670ec4e95176'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('CONDA_PREFIX_1', '/home/ugiviag1/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ugiviag1/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'g1-slam-pc'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('XR_TELEOP_CERT', '/home/ugiviag1/G1_Env/xr_teleoperate/teleop/televuer/cert.pem'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ugiviag1/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/g1_lidar_odometry:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('CONDA_PREFIX', '/home/ugiviag1/miniconda3/envs/g1-slam-pc'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/fast_lio:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/livox_ros_driver2:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp:/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/g1_lidar_odometry:/opt/ros/humble')]), 'shell': False}
+[1.601820] (-) TimerEvent: {}
+[1.632082] (livox_ros_driver2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.636708] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.637812] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.639328] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[1.666082] (livox_ros_driver2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.666191] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>\n'}
+[1.666265] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_generator_c import generate_c\n'}
+[1.666306] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>\n'}
+[1.666345] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_cmake import convert_camel_case_to_lower_case_underscore\n'}
+[1.666383] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[1.666421] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[1.666459] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[1.666497] (livox_ros_driver2) StderrLine: {'line': b'    from lark import Lark\n'}
+[1.666534] (livox_ros_driver2) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[1.671288] (livox_ros_driver2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/build.make:120: rosidl_generator_c/livox_ros_driver2/msg/custom_point.h] Error 1\n'}
+[1.671582] (livox_ros_driver2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:282: CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/all] Error 2\n'}
+[1.672233] (livox_ros_driver2) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.672297] (livox_ros_driver2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.672344] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>\n'}
+[1.672390] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_generator_cpp import generate_cpp\n'}
+[1.672431] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>\n'}
+[1.672471] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_cmake import generate_files\n'}
+[1.672514] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[1.672561] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[1.672615] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[1.672705] (livox_ros_driver2) StderrLine: {'line': b'    from lark import Lark\n'}
+[1.672785] (livox_ros_driver2) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[1.672847] (livox_ros_driver2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.672898] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 8, in <module>\n'}
+[1.672941] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_generator_rs import generate_rs\n'}
+[1.672981] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py", line 21, in <module>\n'}
+[1.673021] (livox_ros_driver2) StderrLine: {'line': b'    import rosidl_cmake as rosidl_pycommon\n'}
+[1.673068] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[1.673107] (livox_ros_driver2) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[1.673146] (livox_ros_driver2) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[1.673186] (livox_ros_driver2) StderrLine: {'line': b'    from lark import Lark\n'}
+[1.673226] (livox_ros_driver2) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[1.677682] (livox_ros_driver2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/livox_ros_driver2__cpp.dir/build.make:131: rosidl_generator_cpp/livox_ros_driver2/msg/custom_point.hpp] Error 1\n'}
+[1.677787] (livox_ros_driver2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:411: CMakeFiles/livox_ros_driver2__cpp.dir/all] Error 2\n'}
+[1.677930] (livox_ros_driver2) StderrLine: {'line': b'gmake[2]: *** [/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/livox_ros_driver2/livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/build.make:124: rosidl_generator_rs/livox_ros_driver2/rust/src/lib.rs] Error 1\n'}
+[1.678093] (livox_ros_driver2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:782: livox_ros_driver2__rs/CMakeFiles/livox_ros_driver2__rs.dir/all] Error 2\n'}
+[1.701898] (-) TimerEvent: {}
+[1.789206] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[1.793762] (livox_ros_driver2) StdoutLine: {'line': b'creating livox_ros_driver2.egg-info\n'}
+[1.793873] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[1.794092] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[1.794217] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[1.794274] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.801948] (-) TimerEvent: {}
+[1.810352] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.810772] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[1.825732] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[1.826503] (livox_ros_driver2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.828044] (livox_ros_driver2) CommandEnded: {'returncode': 2}
+[1.833415] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 2}
+[1.843839] (fast_lio) JobSkipped: {'identifier': 'fast_lio'}
+[1.843890] (-) EventReactorShutdown: {}

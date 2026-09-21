@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/fast_lio/fastlio_mapping" "TARGETS" "fastlio_mapping" "DESTINATION" "lib/fast_lio")

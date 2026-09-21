@@ -1,0 +1,89 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+[0mCMake Deprecation Warning at /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/ugiviag1/miniconda3/envs/g1-slam-pc/bin/python3 (found version "3.10.20") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- Found FastRTPS: /opt/ros/humble/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Configuring done (3.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/build/kiss_icp
+[  7%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o[0m
+[ 21%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o[0m
+[ 21%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o[0m
+[ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o[0m
+[ 42%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o[0m
+[ 50%] [32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable kiss_icp_node[0m
+[ 57%] Built target kiss_icp_node
+[ 64%] [32m[1mLinking CXX static library libkiss_icp_core.a[0m
+[ 64%] Built target kiss_icp_core
+[ 71%] [32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o[0m
+[ 78%] [32m[1mLinking CXX static library libkiss_icp_pipeline.a[0m
+[ 78%] Built target kiss_icp_pipeline
+[ 85%] [32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o[0m
+[ 92%] [32m[1mLinking CXX static library libkiss_icp_metrics.a[0m
+[ 92%] Built target kiss_icp_metrics
+[100%] [32m[1mLinking CXX shared library libodometry_component.so[0m
+[100%] Built target odometry_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/lib/libodometry_component.so
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp//config/config.yaml
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/path.sh
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/environment/path.dsv
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.bash
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.sh
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.zsh
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/local_setup.dsv
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/package.dsv
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+-- Symlinking: /home/ugiviag1/Documents/TFM-Miquel_Reynes/Follower_Project/robot-internal-files/robot-slam/install/kiss_icp/share/kiss_icp/package.xml
